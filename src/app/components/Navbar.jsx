@@ -19,32 +19,32 @@ function Navbar() {
             <HomeIcon className="w-5 h-5" />
           </Link>
         </li>
-        <li>
+        <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
             <PhotoIcon className="w-5 h-5" />
           </Link>
         </li>
-        <li>
+        <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
             <VideoCameraIcon className="w-5 h-5" />
           </Link>
         </li>
-        <li>
+        <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
             <PencilSquareIcon className="w-5 h-5" />
           </Link>
         </li>
-        <li>
+        <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
             <SwatchIcon className="w-5 h-5" />
           </Link>
         </li>
-        <li>
+        <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
             <CogIcon className="w-5 h-5" />
           </Link>
         </li>
-        <li>
+        <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
             <CreditCardIcon className="w-5 h-5" />
           </Link>

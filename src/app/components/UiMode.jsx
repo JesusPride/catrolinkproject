@@ -35,7 +35,7 @@ function UiMode() {
 
   return (
     <label
-      className="bg-grey-background p-2 rounded-lg flex dark:text-primary-text"
+      className="bg-grey-background p-2 rounded-lg flex dark:text-primary-text hover:bg-white"
       htmlFor="uimode"
     >
       <Input

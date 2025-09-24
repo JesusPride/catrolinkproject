@@ -21,7 +21,7 @@ function Header() {
         <Logo className="dark:bg-white-background dark:rounded-3xl" />
         <div className="flex gap-2 items-center ">
           <Image
-            src="/images/gradientimg.jpg"
+            src="/images/profile.jpg"
             alt="profile"
             width={30}
             height={30}
@@ -41,7 +41,7 @@ function Header() {
       <div className="flex items-center gap-3">
         <Link
           href="#"
-          className="lg:flex hidden items-center gap-2 bg-grey-background rounded-lg text-sm p-1.5 dark:text-primary-text"
+          className="lg:flex hidden items-center gap-2 bg-grey-background rounded-lg text-sm p-1.5 dark:text-primary-text hover:bg-white"
         >
           <PhotoIcon className="w-4 h-4" />
           <p>Gallery</p>
@@ -49,7 +49,7 @@ function Header() {
 
         <Link
           href="#"
-          className="lg:flex items-center gap-2 bg-grey-background rounded-lg text-sm p-1.5 hidden dark:text-primary-text"
+          className="lg:flex items-center gap-2 bg-grey-background rounded-lg text-sm p-1.5 hidden dark:text-primary-text hover:bg-white"
         >
           <SpeakerWaveIcon className="w-4 h-4" />
           <p>Support</p>
@@ -59,7 +59,7 @@ function Header() {
         <NotificationsButton />
         <UiMode />
         <Image
-          src="/images/gradientimg.jpg"
+          src="/images/profile.jpg"
           alt="profile"
           width={30}
           height={30}

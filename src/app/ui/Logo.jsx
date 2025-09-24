@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import logo from "../../../public/images/kLogo.png";
+import logo from "../../../public/images/logo.png";
 
 function Logo({ className = "" }) {
   return (
