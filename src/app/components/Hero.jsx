@@ -1,6 +1,6 @@
 import HeroSliderBtn from "../components/HeroSliderBtn";
 import HeroSliderDots from "../components/HeroSliderDot";
-import HeroSlides from "../components/HeroSlides";
+import HeroSlides from "./HeroSlides";
 import { SliderProvider } from "../components/Slider";
 
 function Hero() {
