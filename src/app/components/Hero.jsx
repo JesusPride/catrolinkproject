@@ -1,7 +1,7 @@
-import HeroSliderBtn from "@/app/components/HeroSliderBtn";
-import HeroSliderDots from "@/app/components/HeroSliderDot";
-import HeroSlides from "@/app/components/HeroSlides";
-import { SliderProvider } from "@/app/components/Slider";
+import HeroSliderBtn from "../components/HeroSliderBtn";
+import HeroSliderDots from "../components/HeroSliderDot";
+import HeroSlides from "../components/HeroSlides";
+import { SliderProvider } from "../components/Slider";
 
 function Hero() {
   return (
