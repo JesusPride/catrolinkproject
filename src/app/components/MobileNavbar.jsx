@@ -1,17 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import {
-  HomeIcon,
-  VideoCameraIcon,
-  SpeakerWaveIcon,
-  PhotoIcon,
-  PencilSquareIcon,
-  CreditCardIcon,
-  SwatchIcon,
-  CogIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/solid";
+
+import { MdHomeFilled } from "react-icons/md";
+import { BsFillCameraVideoFill, BsHeadset } from "react-icons/bs";
+import { RiGalleryFill } from "react-icons/ri";
+import { MdEdit } from "react-icons/md";
+import { BiSolidCreditCardAlt } from "react-icons/bi";
+import { BiSolidEyedropper } from "react-icons/bi";
+import { LiaAutoprefixer } from "react-icons/lia";
+import { FaTimes } from "react-icons/fa";
 
 import Button from "../ui/Button";
 import { useToggle } from "@/app/components/ToggleTheme";
@@ -30,52 +28,52 @@ function MobileNavbar() {
       <ul className="flex flex-col gap-5 items-center">
         <li>
           <Button onClick={closeNav}>
-            <XMarkIcon className="w-6 h-6" />
+            <FaTimes size="1.5rem" />
           </Button>
         </li>
         <li className="bg-white-background py-1.5 px-3 rounded-xl">
           <Link href="/">
-            <HomeIcon className="w-8 h-8" />
+            <MdHomeFilled size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <PhotoIcon className="w-8 h-8" />
+            <RiGalleryFill size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <VideoCameraIcon className="w-8 h-8" />
+            <BsFillCameraVideoFill size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <PencilSquareIcon className="w-8 h-8" />
+            <MdEdit size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <SwatchIcon className="w-8 h-8" />
+            <BiSolidEyedropper size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <CogIcon className="w-8 h-8" />
+            <LiaAutoprefixer size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <CreditCardIcon className="w-8 h-8" />
+            <BiSolidCreditCardAlt size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <PhotoIcon className="w-8 h-8" />
+            <RiGalleryFill size="2rem" />
           </Link>
         </li>
         <li>
           <Link href="#">
-            <SpeakerWaveIcon className="w-8 h-8" />
+            <BsHeadset size="2rem" />
           </Link>
         </li>
       </ul>

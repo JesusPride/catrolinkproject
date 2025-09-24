@@ -1,6 +1,7 @@
 "use client";
 
-import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
+import { MdSunny } from "react-icons/md";
+import { FaRegMoon } from "react-icons/fa";
 
 import Input from "@/app/ui/Input";
 import { useEffect, useState } from "react";
@@ -45,9 +46,9 @@ function UiMode() {
         className="hidden"
       />
       {theme === "light" ? (
-        <SunIcon className="w-5 h-5" />
+        <MdSunny className="w-5 h-5 text-black" />
       ) : (
-        <MoonIcon className="w-5 h-5" />
+        <FaRegMoon className="w-5 h-5 text-black" />
       )}
     </label>
   );

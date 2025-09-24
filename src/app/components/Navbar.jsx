@@ -1,14 +1,12 @@
 import Link from "next/link";
 
-import {
-  HomeIcon,
-  VideoCameraIcon,
-  PhotoIcon,
-  PencilSquareIcon,
-  CreditCardIcon,
-  SwatchIcon,
-  CogIcon,
-} from "@heroicons/react/24/solid";
+import { MdHomeFilled } from "react-icons/md";
+import { BsFillCameraVideoFill, BsHeadset } from "react-icons/bs";
+import { RiGalleryFill } from "react-icons/ri";
+import { MdEdit } from "react-icons/md";
+import { BiSolidCreditCardAlt } from "react-icons/bi";
+import { BiSolidEyedropper } from "react-icons/bi";
+import { LiaAutoprefixer } from "react-icons/lia";
 
 function Navbar() {
   return (
@@ -16,37 +14,37 @@ function Navbar() {
       <ul className="flex gap-5 items-center dark:text-primary-text">
         <li className="bg-white-background py-1.5 px-3 rounded-xl">
           <Link href="/">
-            <HomeIcon className="w-5 h-5" />
+            <MdHomeFilled size="1.25rem" />
           </Link>
         </li>
         <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
-            <PhotoIcon className="w-5 h-5" />
+            <RiGalleryFill size="1.25rem" />
           </Link>
         </li>
         <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
-            <VideoCameraIcon className="w-5 h-5" />
+            <BsFillCameraVideoFill size="1.25rem" />
           </Link>
         </li>
         <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
-            <PencilSquareIcon className="w-5 h-5" />
+            <MdEdit size="1.25rem" />
           </Link>
         </li>
         <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
-            <SwatchIcon className="w-5 h-5" />
+            <BiSolidEyedropper size="1.25rem" />
           </Link>
         </li>
         <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
-            <CogIcon className="w-5 h-5" />
+            <LiaAutoprefixer size="1.25rem" />
           </Link>
         </li>
         <li className="hover:bg-white rounded-2xl p-2">
           <Link href="#">
-            <CreditCardIcon className="w-5 h-5" />
+            <BiSolidCreditCardAlt size="1.25rem" />
           </Link>
         </li>
       </ul>

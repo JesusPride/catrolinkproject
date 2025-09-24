@@ -1,10 +1,9 @@
 import Link from "next/link";
-import {
-  PhotoIcon,
-  SpeakerWaveIcon,
-  ChevronDownIcon,
-  UserCircleIcon,
-} from "@heroicons/react/24/solid";
+
+import { IoIosArrowDown } from "react-icons/io";
+import { BsHeadset } from "react-icons/bs";
+import { RiGalleryFill } from "react-icons/ri";
+import { MdOutlineAccountCircle } from "react-icons/md";
 import Image from "next/image";
 
 import Logo from "@/app/ui/Logo";
@@ -30,8 +29,8 @@ function Header() {
           />
           <Link href="#" className="flex gap-2 items-center">
             <p className="text-sm hidden lg:block">benevolentnimbllebat</p>
-            <UserCircleIcon className="lg:hidden block w-5 h-5" />
-            <ChevronDownIcon className="w-4 h-4" />
+            <MdOutlineAccountCircle className="lg:hidden block w-5 h-5" />
+            <IoIosArrowDown className="w-4 h-4" />
           </Link>
         </div>
       </div>
@@ -43,7 +42,7 @@ function Header() {
           href="#"
           className="lg:flex hidden items-center gap-2 bg-grey-background rounded-lg text-sm p-1.5 dark:text-primary-text hover:bg-white"
         >
-          <PhotoIcon className="w-4 h-4" />
+          <RiGalleryFill className="w-4 h-4" />
           <p>Gallery</p>
         </Link>
 
@@ -51,7 +50,7 @@ function Header() {
           href="#"
           className="lg:flex items-center gap-2 bg-grey-background rounded-lg text-sm p-1.5 hidden dark:text-primary-text hover:bg-white"
         >
-          <SpeakerWaveIcon className="w-4 h-4" />
+          <BsHeadset className="w-4 h-4" />
           <p>Support</p>
         </Link>
 
